@@ -1,0 +1,20 @@
+HELP Podaje informacje o poleceniach systemu Windows.
+CHDIR Wyœwietla lub zmienia nazwe bie¿¹cego katalogu.
+MKDIR katalog  Tworzy katalog.
+dir > nazwa_pliku.txt utworzenia pliku o nazwie 'plik.txt'
+TYPE Wyœwietla zawartoœa pliku tekstowego.
+CD\ przejœcie do katalogu nadrzêdnego 
+CD\ 'lab4'    przejœcie do katalogu 'lab4'
+REN Zmienia nazwe pliku lub plików.
+RENAME Zmienia nazwe pliku lub plików.
+
+
+git log podgl¹d wszystkich zatwierdzonych zmian
+ git diff podgl¹du wprowadzonych w repozytorium zmian
+ git diff -staged   podgl¹du wprowadzonych zmian plików które s¹ juz w przechowalni
+ git status podgl¹du zmian wprowadzonych w danym pliku
+ git rm usuwania plików z repozytorium
+  git add  dodawanie plików do przechowalni
+  git reset usuwanie plików z przechowalni
+  git stash  przenoszenia plików znajduj¹cych siê w przechowalni do innej ga³êzi
+  git branch  usuwania ga³êzi
